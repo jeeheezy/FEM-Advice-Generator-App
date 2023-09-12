@@ -1,0 +1,71 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    font-size: 28px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue);
+    font-family: "Manrope", sans-serif;
+}
+
+.advice-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-grayish-blue);
+    width: 95%;
+    max-width: 18rem;
+    min-width: 11rem;
+    box-sizing: border-box;
+    padding: 1.5rem 0.85rem 2rem;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.advice-number {
+    color: var(--neon-green);
+    font-size: 0.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+.advice-text {
+    color: var(--light-cyan);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.dice-circle {
+    background-color: var(--neon-green);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%)
+}
+
+.dice-circle:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1rem 0 hsla(150, 100%, 66%, 0.7);
+    background-color: hsl(150, 95%, 70%);
+}
+
+.attribution {
+    color: var(--light-cyan);
+    margin-top: 1.5rem;
+}
