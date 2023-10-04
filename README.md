@@ -62,6 +62,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+Talk about async/await vs then, talk about promise, .
+
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
@@ -92,10 +94,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs for Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) - This page on using the Fetch API helps understand much of what's possible and gives plenty of examples to help understand what they are explaining. While there's much that was not applied in this project, I specifically found the "Checking that the fetch was successful" portion of the document helpful.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [ChatGPT 3.5](https://chat.openai.com/) - ChatGPT is a good great resource when trying to understand where to begin and why something might be written the way it is. It was particularly helpful for me this time around in undestanding async/await, as well as how the .json method works since at first glance it seemed like an object but the documentations stated it was a promise.
+
 
 ## Author
 
